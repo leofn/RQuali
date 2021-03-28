@@ -12,4 +12,4 @@ purrr::walk(1:nrow(df),~{
     write(file = paste0(nome,".txt"))
   })
 
-### Os txts serão criados no 
+### Os txts serão criados no wd
